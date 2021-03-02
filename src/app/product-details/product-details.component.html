@@ -1,0 +1,18 @@
+<h2>Product Details</h2>
+
+
+<div *ngIf="product">
+  <img src="image" alt="product image" src = {{product.src1}}>
+  <img src="image" alt="product image" src = {{product.src2}}>
+  <img src="image" alt="product image" src = {{product.src3}}>
+
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+
+  <button (click)="removeButton(product)">Remove</button>
+
+  <button (click)="addToCart(product)">Buy</button>
+</div>
+
+
