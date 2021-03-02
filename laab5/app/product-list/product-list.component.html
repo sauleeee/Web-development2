@@ -1,0 +1,95 @@
+<h2>Products</h2>
+
+<div *ngIf="products">
+
+  <h3>
+    <span>
+    <img src="image" alt="product image" src = {{product.src1}}>
+    <a [title]="product.name1 + ' details'" [routerLink]="['/details', product.id]">
+      {{ product.name1 }}
+    </a>
+    <p *ngIf="product.description1">{{product.description1}}</p>
+    <p>{{product.price1}}</p>
+    <p>{{product.rating1}}</p>
+
+    <app-like></app-like>
+
+
+    <a id = telegram href='https://t.me/share/url?url={{product.href1}}}&text=Now there is a discount for this product.Follow the link,{{product.name1}}'>
+      <button  id=button>
+        Share
+      </button>
+    </a>
+
+    </span>
+
+
+    <img src="image" alt="product image" src = {{product.src4}}>
+    <a [title]="product.name2 + ' details'" [routerLink]="['/details', product.id]">
+      {{ product.name2 }}
+    </a>
+    <p *ngIf="product.description2">{{product.description2}}</p>
+    <p>{{product.price2}}</p>
+    <p>{{product.rating2}}</p>
+
+    <app-like></app-like>
+
+    <a id = telegram href='https://t.me/share/url?url={{product.href2}}}&text=Now there is a discount for this product.Follow the link,{{product.name2}}'>
+      <button  id=button>
+        Share
+      </button>
+    </a>
+
+    <img src="image" alt="product image" src = {{product.src7}}>
+
+    <a [title]="product.name3 + ' details'" [routerLink]="['/details', product.id]">
+      {{ product.name3 }}
+    </a>
+    <p *ngIf="product.description3">{{product.description3}}</p>
+    <p>{{product.price3}}</p>
+    <p>{{product.rating3}}</p>
+
+    <app-like></app-like>
+
+    <a id = telegram href='https://t.me/share/url?url={{product.href3}}}&text=Now there is a discount for this product.Follow the link,{{product.name3}}'>
+      <button  id=button>
+        Share
+      </button>
+    </a>
+
+    <img src="image" alt="product image" src = {{product.src10}}>
+    <a [title]="product.name4 + ' details'" [routerLink]="['/details', product.id]">
+      {{ product.name4 }}
+    </a>
+    <p *ngIf="product.description4">{{product.description4}}</p>
+    <p>{{product.price4}}</p>
+    <p>{{product.rating4}}</p>
+
+    <app-like></app-like>
+
+    <a id = telegram href='https://t.me/share/url?url={{product.href4}}}&text=Now there is a discount for this product.Follow the link,{{product.name4}}'>
+      <button  id=button>
+        Share
+      </button>
+    </a>
+
+    <img src="image" alt="product image" src = {{product.src13}}>
+    <a [title]="product.name5 + ' details'" [routerLink]="['/details', product.id]">
+      {{ product.name5 }}
+    </a>
+
+    <p *ngIf="product.description5">{{product.description5}}</p>
+    <p>{{product.price5}}</p>
+    <p>{{product.rating5}}</p>
+
+    <app-like></app-like>
+
+    <a id = telegram href='https://t.me/share/url?url={{product.href5}}}&text=Now there is a discount for this product.Follow the link,{{product.name5}}'>
+      <button  id=button>
+        Share
+      </button>
+    </a>
+
+  </h3>
+</div>
+
