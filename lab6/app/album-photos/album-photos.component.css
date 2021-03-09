@@ -1,0 +1,16 @@
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+ul li {
+  list-style-type: none;
+  font-family: cursive;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}

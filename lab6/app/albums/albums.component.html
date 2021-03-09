@@ -1,0 +1,19 @@
+<article>
+  <h2>Album List</h2>
+
+  <hr>
+
+  <fieldset>
+    <input type="text" [(ngModel)]="newAlbum">
+    <button (click)="addAlbum()">Add Album</button>
+  </fieldset>
+
+  <ul *ngIf="loaded">
+    <li *ngFor="let album of albums">
+      <a [routerLink]="['/albums', album.id]">{{album.id}}) {{album.title}}</a>
+      <img  (click)="deleteAlbum(album.id)" src="https://image.flaticon.com/icons/png/512/61/61848.png" alt="button photo">
+    </li>
+  </ul>
+
+  <p *ngIf="!loaded">Loading post list...</p>
+</article>

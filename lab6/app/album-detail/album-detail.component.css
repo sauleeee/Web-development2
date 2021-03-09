@@ -1,0 +1,25 @@
+h1,h2,h3,a,p {
+  font-family: cursive;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 30px;
+}
+
+button {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+a:hover {
+  background-color: #ffac94;
+  text-decoration: underline;
+}
