@@ -1,5 +1,5 @@
-s=input()
-a=[int(s) for s in s.split()]
-for i in a:
-    if int(i)%2 == 0:
-       print(i, end=' ')
+n = int(input())
+l = list(input().split())
+for i in range(0, n):
+    if i % 2 == 0:
+        print(l[i], end=" ")

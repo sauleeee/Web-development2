@@ -1,12 +1,7 @@
-from random import random
-
-neg = pos = zero = 0
-a = []
-for i in range(20):
-    n = int(random() * 10) - 5
-    a.append(n)
-    print(n, end=' ')
-    if n > 0:
-        pos += 1
-
-print(pos)
+n = int(input())
+l = list(input().split())
+cnt = 0
+for i in range(0, n):
+    if int(l[i]) > 0:
+        cnt += 1
+print(cnt)

@@ -1,8 +1,7 @@
-prev = int(input())
-answer = 0
-while prev != 0:
-    next = int(input())
-    if next != 0 and prev < next:
-        answer += 1
-    prev = next
-print(answer)
+n = int(input())
+l = list(input().split())
+cnt = 0
+for i in range(1, n):
+    if int(l[i]) > int(l[i-1]):
+        cnt += 1
+print(cnt)
