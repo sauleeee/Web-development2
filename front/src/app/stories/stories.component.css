@@ -1,0 +1,43 @@
+.global{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right:400px;
+}
+.subglobal{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.line{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+
+.block{
+  width: 350px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+img{
+  width: 350px;
+}
+p{
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+h2{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+

@@ -1,0 +1,17 @@
+<div class="article">
+<div class="main">
+  <div class="posts" *ngIf="loaded">
+    <ul class="post" *ngFor="let product of product">
+      <li>
+        <img  src="{{product.img}}">
+        <div class="text">
+          <h2 routerLink="/products/{{product.id}}/furniture">{{product.title}}</h2> <br>
+          <a class="review" routerLink="/products/{{product.id}}/review">View reviews</a> <br>
+          <p>{{product.body}}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <p *ngIf="!loaded">Loading posts...</p>
+</div>
+</div>

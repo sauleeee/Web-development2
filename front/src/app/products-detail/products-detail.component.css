@@ -1,0 +1,103 @@
+.f-2 {
+
+  margin-top: 100px;
+}
+.post1 {
+  display: inline-block;
+  text-align: center;
+  margin: 50px;
+}
+.wrapper {
+  margin-top: 70px;
+}
+.conteiner {
+  background-color: rgb(238, 238, 238);
+  width: 900px;
+  height: 1200px;
+  float: left;
+}
+.f-3 {
+  width: 800px;
+  height: 450px;
+  padding-top: 80px;
+}
+.text-conteiner2 {
+  height: 200px;
+  width: 470px;
+  float: right;
+  padding-right: 50px;
+}
+.body-2 {
+  font-size: 20px;
+  word-wrap: break-word;
+  padding-top: 250px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.7;
+}
+.f-4 {
+  width: 850px;
+  height: 510px;
+  padding-left: 660px;
+  margin-top: -200px;
+}
+.body-3 {
+  font-size: 20px;
+  word-wrap: break-word;
+  padding-top: 200px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.7;
+  padding-top: 280px;
+}
+.text-conteiner3 {
+  height: 300px;
+  width: 500px;
+  padding-left: 60px;
+}
+.furniture-box {
+  text-align: center;
+}
+.f-1 {
+  width: 400px;
+  height: 400px;
+  padding-left: 340px;
+}
+.body-1 {
+  font-style: italic;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.price-box {
+  float: right;
+  text-align: center;
+  padding-right: 150px;
+  margin-top: 100px;
+  line-height: 2.5;
+}
+button {
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+  padding-bottom: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.delivery-box {
+  padding-top: 30px;
+  font-size: 16px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style:normal;
+  color: rgb(49, 48, 48);
+}
+.tick {
+  width: 10px;
+  height: 10px;
+}

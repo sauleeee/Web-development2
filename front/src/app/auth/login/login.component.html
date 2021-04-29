@@ -1,0 +1,22 @@
+<div class="login">
+  <div *ngIf="!logged">
+    <h1 class="heading">My account</h1>
+    <h2 class="heading">Sign in</h2>
+    <div class="loginBox">
+      <div class="innerBox">
+        <h5 class="input" id="username">Username <span>*</span></h5>
+        <div class="inputborder"><input type="text" [(ngModel)]="username"></div>
+        <h5 class="input" id="password">Password <span>*</span></h5>
+        <div class="inputborder"><input type="password" [(ngModel)]="password"></div>
+        <button id="signIn" (click)="login()">Sign in</button>
+        <button id="signUp"routerLink="/login/register">Sign up</button>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="logged">
+    <router-outlet></router-outlet>
+    <button (click)="logout()">Logout</button>
+  </div>
+</div>
+
+

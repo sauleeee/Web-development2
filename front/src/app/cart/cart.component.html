@@ -1,0 +1,17 @@
+<div class="orders" *ngIf="logged">
+<h1>Shopping cart</h1>
+  <hr>
+  <div class="order"  *ngFor="let order of orders">
+    <img  src="{{order.img}}">
+    <h2>{{order.title}}</h2>
+    <p>{{order.price}}</p>
+    <img class="button-img" (click)="deleteOrder(order)" src="https://image.flaticon.com/icons/png/512/61/61848.png" alt="button photo">
+
+  </div>
+  <button class="empty-cart"  (click)="EmptyCart()">Empty trash</button>
+</div>
+
+<div class="regOrlogin" *ngIf="!logged">
+  <h1>To order a product, register or log into your account!</h1>
+</div>
+

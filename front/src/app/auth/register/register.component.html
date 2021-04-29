@@ -1,0 +1,15 @@
+<div class="main">
+  <h1 class="heading">Sign Up</h1>
+  <p class="heading">It’s quick and easy.</p>
+  <div class="loginBox">
+    <div class="innerBox">
+      <div class="inputborder">
+        <input class="auth" type="text" align="center" placeholder="Email" [(ngModel)]="email" required><br><br>
+        <input class="auth " type="text" align="center" placeholder="Username" required [(ngModel)]="username"><br><br>
+        <input class="auth" type="password" align="center" placeholder="Password" required [(ngModel)]="password"><br><br>
+        <input class="auth" type="password" align="center" placeholder="Confirm password" required [(ngModel)]="confirm">
+        <button type="submit" class="btn" (click)="register()">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>

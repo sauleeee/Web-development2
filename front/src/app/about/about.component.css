@@ -1,0 +1,12 @@
+.menu{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}

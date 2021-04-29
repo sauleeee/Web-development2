@@ -1,0 +1,40 @@
+<ul ng *ngIf="loaded">
+  <li *ngFor="let furniture of furniture ">
+
+    <div class="furniture-box">
+      <div class="text-box">
+        <h1>{{furniture.title}}</h1>
+        <p class="body-1">{{furniture.body}}</p>
+      </div>
+      <img class="f-1" src="{{furniture.img}}" alt="photos">
+      <div class="price-box">
+        <h2>
+          {{furniture.price}}
+        </h2>
+
+
+        <button class="order" (click)="postOrder(furniture.img, furniture.title, furniture.price)">Add To Cart</button>
+
+
+        <div class="delivery-box">
+          <p class="delivery"><img class="tick" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Tick.png"> Ready to ship</p>
+          <p class="delivery"><img class="tick" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Tick.png"> Delivery time: 2-7 days</p>
+        </div>
+      </div>
+    </div>
+    <img class="f-2" src="{{furniture.img2}}" alt="photos" width="100%">
+    <div class="wrapper">
+      <div class="conteiner">
+        <img class="f-3" src="{{furniture.img3}}" alt="photos">
+        <div class="text-conteiner3">
+          <p class="body-3">{{furniture.body3}}</p>
+        </div>
+        <img class="f-4" src="{{furniture.img4}}" alt="photos">
+      </div>
+      <div class="text-conteiner2">
+        <p class="body-2">{{furniture.body2}}</p>
+      </div>
+    </div>
+  </li>
+</ul>
+<p *ngIf="!loaded">Loading photos...</p>

@@ -1,0 +1,172 @@
+.posts {
+  background-color: rgb(247, 247, 247);
+  height: 3150px;
+}
+
+
+.header-title {
+
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 390px;
+  left:370px;
+  letter-spacing: 5px;
+  font-family: fantasy;
+
+}
+
+.discover-button{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 610px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border: white;
+  border-style: solid;
+  border-width: thin;
+  background-color: white;
+  color: #DBC8BA;
+}
+.post1 {
+  display: inline-block;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.post1img {
+  width: 30px;
+  height: 40px;
+  float: left;
+  padding-left: 10px;
+  position: relative;
+}
+.car {
+  width: 155px;
+  float: right;
+  margin-left: 20px;
+}
+.title-1 {
+  font-size: 17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: inherit;
+  float: left;
+  font-stretch:extra-condensed;
+  font-weight: 500;
+  color: rgb(49, 49, 49);
+}
+.body-1 {
+  font-size: 15px;
+  font-family: "Garamond Premier Pro Display", serif;
+  font-style: inherit;
+  float: left;
+  padding-top: 10px;
+}
+.post2{
+  display: inline-block;
+}
+.post2img {
+  width: 360px;
+  height: 280px;
+  position: relative;
+  padding-top: 100px;
+}
+.post2img:hover {
+  opacity:0.8;
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+}
+.title-2 {
+  position: absolute;
+  top: 1285px;
+  color:aliceblue;
+  padding-left: 10px;
+  font-family: "Georgia", serif;
+  font-style: inherit;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.left-1 {
+  width: 900px;
+  height: 550px;
+  margin-top: 80px;
+}
+.pelican-box {
+  margin-top: 180px;
+  float: right;
+  width: 400px;
+  margin-right: 50px;
+}
+.Pelican {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: inherit;
+  font-size: 33px;
+  font-stretch:extra-condensed;
+  color: rgb(39, 39, 39);
+}
+.pelican-h3 {
+  padding-top: 35px;
+  font-size: 20px;
+  font-style: italic;
+  font-stretch:condensed;
+  font-weight: 500;
+}
+.pelican-p {
+  padding-top: 50px;
+  font-size: 18px;
+  color: rgb(104, 104, 104);
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.7;
+}
+.shop {
+  padding-top: 40px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 20px;
+  font-stretch: extra-condensed;
+  line-height: 1.7;
+}
+
+.right-1 {
+  width: 900px;
+  height: 550px;
+  margin-top: 80px;
+  float: right;
+}
+.geo-box {
+  margin-top: 180px;
+  float: left;
+  width: 400px;
+  margin-left: 50px;
+}
+.geo {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: inherit;
+  font-size: 50px;
+  color: rgb(39, 39, 39);
+}
+.geo-h3 {
+  padding-top: 35px;
+  font-size: 20px;
+  font-style: italic;
+  font-stretch:condensed;
+  font-weight: 500;
+}
+.geo {
+  padding-top: 50px;
+  font-size: 18px;
+  color: rgb(104, 104, 104);
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.7;
+}

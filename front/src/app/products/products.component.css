@@ -1,0 +1,50 @@
+.article {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  height: 7400px;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+
+}
+.posts {
+  padding-left: 100px;
+}
+
+.post {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+img {
+  width: 600px;
+  height: 500px;
+  padding-bottom: 100px;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  cursor: pointer;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 510;
+  font-size: 20px;
+}
+
+.review {
+  font-size: 13px;
+  font-style: italic;
+  color: black;
+}
+
+.text {
+  text-align: center;
+}
+
+p {
+  margin-top: 2px;
+  font-style: italic;
+  font-size: 20px;
+}

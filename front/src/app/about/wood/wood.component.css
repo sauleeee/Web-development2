@@ -1,0 +1,40 @@
+.menu{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.global{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.subglobal{
+  width: 60%;
+
+}
+.top{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.pic{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size: 22px;
+}
+h3{
+  font-size: 28px;
+  text-decoration: underline;
+}

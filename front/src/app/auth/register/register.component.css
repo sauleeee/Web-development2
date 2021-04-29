@@ -1,0 +1,48 @@
+.main{
+  width: 100%;
+  height: 600px;
+}
+.loginBox {
+  width: 550px;
+  height:400px;
+  margin-left: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(205, 207, 207);
+}
+.inputborder {
+  text-align: center;
+}
+input {
+  height: 45px;
+  border: 1px solid rgb(205, 207, 207);
+  font-size: 15px;
+  padding-left: 10px;
+  width: 500px;
+}
+input:focus {
+  outline: none;
+}
+.innerBox {
+  margin-top: 20px;
+}
+.heading {
+  margin-left: 150px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(41, 41, 41);
+}
+button {
+  margin-top: 13px;
+  margin-left: 18px;
+  height: 35px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}

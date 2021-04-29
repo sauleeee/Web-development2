@@ -1,0 +1,67 @@
+<article>
+
+
+  <div class="post-video">
+    <video autoplay muted playsinline loop src="https://woodendot.com/wp-content/uploads/2021/03/Home-Video-Woodendot_Marzo2021.mp4" width="100%"> </video>
+    <h1 class="header-title">Furniture designed to live in harmony,<br> creating  distinctive and timeless spaces</h1>
+    <button routerLink="/products" class="discover-button">Discover now</button>
+  </div>
+
+  <div class="posts" *ngIf="loaded">
+
+    <ul class="post1" *ngFor="let post of posts1">
+      <li>
+        <img class="post1img" src="{{post.img}}">
+        <div class="car">
+          <h1 class="title-1">{{post.title}}</h1> <br> <p class="body-1">{{post.body}}</p>
+        </div>
+      </li>
+    </ul>
+    <ul class="post2" *ngFor="let post of posts2">
+      <li>
+        <img class="post2img" src="{{post.img}}"> <h2 class="title-2">{{post.title}}</h2>
+      </li>
+    </ul>
+    <ul class="post3" >
+      <li><img class="left-1" src="https://woodendot.com/wp-content/uploads/2020/10/Woodendot-Pelican-shelves-hidden-hooks-walnut-wood-HOME1-1536x867.jpg">
+        <div class="pelican-box">
+          <h1 class="Pelican">Pelican</h1>
+          <h3 class="pelican-h3">Shelves with hidden hooks</h3> <br>
+          <p class="pelican-p">Store or exhibit your favorite objects in the entrance hall, modern hallways,
+            living rooms and bedrooms with a decorative and minimalist touch.</p> <br>
+          <p routerLink="/posts" class="shop">Shop now</p>
+        </div></li>
+      <li>
+        <div class="geo-box">
+          <h1 class="geo">GEO</h1>
+          <h3 class="geo-h3">Minimal tech accessories</h3> <br>
+          <p class="geo-p">A collection of minimal tech accessories specially designed for your favorite gadgets to transform your working space.</p>
+          <p routerLink="/posts" class="shop">Shop now</p>
+        </div>
+        <img class="right-1" src="https://woodendot.com/wp-content/uploads/2020/10/Woodendot-GEO-collection-smartphone-headhones-apple-pencil-laptop-stand-devices-wood-minimalist-HOME1-1024x578.jpg">
+      <li><img class="left-1"  src="https://woodendot.com/wp-content/uploads/2020/10/Woodendot-alba-bedside-table-oak-oval-minimalistic-HOME1-1536x867.jpg">
+          <div class="pelican-box">
+            <h1>Alba</h1>
+            <h3>Modular bedside table &shelf</h3><br>
+            <p>A versatile and modular piece with a sculptural touch that can be used as a wall shelf or as a bedside table with concealed storage.</p><br>
+            <p routerLink="/posts" class="shop">Shop now</p>
+          </div>
+      <li>
+        <div class="geo-box">
+          <h1>Batea</h1>
+        <h3>Tables with storage & tray tables</h3>
+        <p>Composed of clean and rounded lines, the Batea Collection includes unique tables with extra functionality like a removable tray, and hidden storage.</p>
+          <p routerLink="/posts" class="shop">Shop now</p>
+        </div>
+        <img class="right-1" src="https://woodendot.com/wp-content/uploads/2020/10/Woodendot-Batea-tables-center-side-storage-oak-wood-tray-table-HOME1.jpg"><br>
+    </ul>
+  </div>
+  <p *ngIf="!loaded">Loading posts...</p>
+</article>
+
+
+
+
+
+
+

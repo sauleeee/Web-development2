@@ -1,0 +1,69 @@
+.login{
+  width: 100%;
+  height: 600px;
+}
+
+.heading {
+  margin-left: 150px;
+  margin-top: 40px;
+  font-weight: 400;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(41, 41, 41);
+}
+.loginBox {
+  width: 550px;
+  height:320px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(205, 207, 207);
+}
+#password {
+  margin-top: 30px;
+}
+.input {
+  margin-left: 19px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding-bottom: 5px;
+  color: rgb(78, 78, 78);
+}
+span {
+  color:red;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input {
+  height: 45px;
+  border: 1px solid rgb(205, 207, 207);
+  font-size: 15px;
+  padding-left: 10px;
+  width: 500px;
+}
+input:focus {
+  outline: none;
+}
+.inputborder {
+  text-align: center;
+}
+.innerBox {
+  margin-top: 20px;
+}
+button {
+  margin-top: 40px;
+  margin-left: 18px;
+  height: 35px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+#signUp {
+  margin-left: 100px;
+}
+#signUp {
+  margin-left: 10px;
+}
