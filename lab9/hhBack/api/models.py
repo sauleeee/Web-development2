@@ -39,7 +39,8 @@ class Vacancy(models.Model):
             'id': self.id,
             'name': self.name,
             'description': self.description,
-            'salary': self.salary
+            'salary': self.salary,
+            'company': self.company.to_json()
         }
 
     def __str__(self):

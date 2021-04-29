@@ -9,3 +9,5 @@ urlpatterns = [
     path('vacancy/<int:vacancy_id>', vacancy_detail),
     path('vacancy/top_ten/', vacancy_top)
 ]
+
+
